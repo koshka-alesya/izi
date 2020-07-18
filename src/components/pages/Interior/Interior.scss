@@ -1,0 +1,16 @@
+.Interior__img {
+  background-size: cover;
+  width: 100%;
+  object-fit: cover;
+}
+.Interior__caption {
+  position: absolute;
+  top: -144px;
+  left: -48px;
+}
+.Interior {
+  padding: 170px 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,17 @@
+.About__img {
+  background: url('../../../img/About.png');
+  background-size: contain;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+.About__caption {
+  top: -144px;
+  left: -202px;
+  position: absolute;
+}
+.About {
+  padding: 170px 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
