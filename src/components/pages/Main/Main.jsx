@@ -46,7 +46,7 @@ function Main() {
                 </div>
             </div>
             <MenuBurger />
-            <div className={'container-fluid p-0'} style={{flexGrow: 1}}>
+            <div className={'container-fluid p-0 Main__container'}>
                 <div className={'row m-0 Main__wrapper'} style={{height: 100 + '%'}}>
                     <div className={"Main__header__wrapper"} style={{width: 100 + '%'}}>
                         <div className={'col-xl-6 offset-xl-6 col-lg-7 offset-lg-5 col-12 Main__header'}>

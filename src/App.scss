@@ -133,6 +133,9 @@ body { overflow: -moz-scrollbars-none; }
   .Interior {
     margin: 0 40px !important;
   }
+  .Slider__wrapper {
+    padding: 0 40px !important;
+  }
   .ButtonNext {
     right: 0 !important;
   }
@@ -185,6 +188,9 @@ body { overflow: -moz-scrollbars-none; }
     height: 500px !important;
   }
   .Interior__wrapper {
+    padding: 0 !important;
+  }
+  .About__wrapper {
     padding: 0 !important;
   }
   .Info_item {
