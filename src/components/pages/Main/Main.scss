@@ -36,7 +36,7 @@
 }
 .Main {
   height: 100vh;
-  background: url('../../../img/background.png');
+  background: url('../../../img/background-min.png');
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -102,4 +102,8 @@
 }
 .Main__container {
   flex: 1 1 0;
+}
+.popup-content {
+  background: #000D0F !important;
+  border: none !important;
 }

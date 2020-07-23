@@ -1,5 +1,6 @@
 import React from 'react';
 import './About.scss';
+import Fade from 'react-reveal/Fade';
 const img = require('../../../img/About.png');
 
 export default function About() {
@@ -13,13 +14,17 @@ export default function About() {
                         </div>
                     </div>
                     <div className={'col-xl-5 col-lg-5 col-12 About__wrapper'}>
-                        <div className="Caption About__caption">
-                            #всебудетizi
-                        </div>
-                        <div className="About__text">
-                            “IZI kitchen” ресторан мультикультурной кухни. Ресторан находится в бизнес-центре премиум класса “Towers”.
-                            Философия “IZI” проста: «Объединить разных людей с разными вкусами в одном месте».
-                        </div>
+                        <Fade right>
+                            <div className="Caption About__caption">
+                                #всебудетizi
+                            </div>
+                        </Fade>
+                        <Fade left>
+                            <div className="About__text">
+                                “IZI kitchen” ресторан мультикультурной кухни. Ресторан находится в бизнес-центре премиум класса “Towers”.
+                                Философия “IZI” проста: «Объединить разных людей с разными вкусами в одном месте».
+                            </div>
+                        </Fade>
                     </div>
                 </div>
             </div>

@@ -1,5 +1,6 @@
 @import "~bootstrap/scss/bootstrap";
 @import "./components/pages/Main/Main.scss";
+@import "~react-image-gallery/styles/scss/image-gallery.scss";
 
 @font-face {
   font-family: 'MontserratMedium';
@@ -60,6 +61,15 @@ body { overflow: -moz-scrollbars-none; }
   }
   .ButtonNext {
     right: 0 !important;
+  }
+  .Tour__slide__img {
+    max-height: 400px !important;
+  }
+  .Tour__Caption {
+    font-size: 70px !important;
+  }
+  .popup-content {
+    width: 78% !important;
   }
 
 }

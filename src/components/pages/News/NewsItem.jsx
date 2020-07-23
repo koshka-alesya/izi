@@ -2,17 +2,17 @@ import React from 'react';
 import './News.scss';
 const img = require('../../../img/news.png')
 
-export default function NewsItem() {
+export default function NewsItem(props) {
     return (
-        <div className="NewsItem">
+        <div className={props.class}>
             <div className={'container-fluid p-0 NewsItem__wrapper'}>
                 <div className={'row align-items-center m-0 p-0'} >
                     <div className={'col-lg-3 col-md-12 col-12 p-0 NewsItem__caption__wrapper'}>
                         <div className="NewsItem__caption">
-                            Завтраки в IZI
+                            {props.caption || ""}
                         </div>
                         <div className="NewsItem__date">
-                            23 июля
+                            {props.date || ""}
                         </div>
                     </div>
                     <div className={'col-lg-6 col-md-12 col-12 p-0 NewsItem__wrapper__img'}>
@@ -26,7 +26,7 @@ export default function NewsItem() {
                     <div className={'col-12 p-0'}>
                         <div className="NewsItem__text">
                             <div className="About__text">
-                                Мы запустили завтраки в IZI! Ждем вас с 8.00 до 12.00
+                                {props.text || ""}
                             </div>
                         </div>
                     </div>
