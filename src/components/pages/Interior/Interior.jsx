@@ -8,9 +8,11 @@ export default function Interior() {
         <div className="Interior">
            <div className={'container-fluid p-0'}>
                <div className={'row align-items-center m-0 p-0'} >
-                   <div className={'col-xl-4 offset-xl-2 col-lg-5 offset-lg-1 col-md-6 col-12 p-0 Interior__img__wrapper'}>
-                       <img className={'Interior__img'} src={img} />
-                   </div>
+                   <Fade left>
+                       <div className={'col-xl-4 offset-xl-2 col-lg-5 offset-lg-1 col-md-6 col-12 p-0 Interior__img__wrapper'}>
+                           <img className={'Interior__img'} src={img} />
+                       </div>
+                   </Fade>
                    <div className={'col-xl-4 col-lg-5 col-md-6 col-12 Interior__wrapper'}>
                        <Fade right>
                        <div className="Caption Interior__caption">

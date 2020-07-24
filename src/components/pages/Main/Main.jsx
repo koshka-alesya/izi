@@ -5,21 +5,7 @@ import {scaleRotate as Menu} from 'react-burger-menu';
 import Fade from 'react-reveal/Fade';
 import Popup from "reactjs-popup";
 import Tour from "../../tourGallary/Tour";
-
-function MenuBurger() {
-    return (
-        <div className="Main__menu">
-            <Menu>
-                <Popup modal trigger={ <a id="home" className="menu-item" href="/">ТУР РЕСТОРАНА</a>} position="right center">
-                    <Tour />
-                </Popup>
-                <a id="about" className="menu-item" href="/about">ДОСТАВКА ЕДЫ В TOWERS</a>
-                <a id="contact" className="menu-item" href="/contact">МЕНЮ РЕСТОРАНА</a>
-                <a id="contact" className="menu-item" href="/contact">КОНТАКТЫ</a>
-            </Menu>
-        </div>
-    )
-}
+import MenuBurger from "../../menu/Menu";
 
 function Main() {
     return (

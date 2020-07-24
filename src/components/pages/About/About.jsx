@@ -9,9 +9,11 @@ export default function About() {
             <div className={'container-fluid p-0'}>
                 <div className={'row align-items-center m-0'} >
                     <div className={'col-xl-5 offset-xl-1 col-lg-5 offset-lg-1 col-12 p-0'}>
+                        <Fade left>
                         <div className="About__img__wrapper">
                             <img className="About__img" src={img} />
                         </div>
+                        </Fade>
                     </div>
                     <div className={'col-xl-5 col-lg-5 col-12 About__wrapper'}>
                         <Fade right>

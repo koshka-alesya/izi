@@ -12,6 +12,7 @@ function SampleNextArrow(props) {
     console.log(props);
     const {className, style, currentSlide, count, onClick} = props;
     return (
+        <Fade left>
         <div
             className={"ButtonNext"}
             onClick={onClick}
@@ -31,6 +32,8 @@ function SampleNextArrow(props) {
                 </div>
             </div>
         </div>
+        </Fade>
+
     );
 }
 
@@ -83,7 +86,7 @@ export default class NewsSlider extends Component {
                 <div className={'container-fluid p-0'}>
                     <div className={'row align-items-center m-0'}>
                         <div className={'col-lg-4 col-12 p-0'}>
-                            <Fade left>
+                            <Fade right>
                                 <div className="Caption News__caption">
                                     what`s
                                     new?
@@ -92,7 +95,7 @@ export default class NewsSlider extends Component {
                         </div>
                     </div>
                 </div>
-                <Zoom>
+
                     <div>
                         <Slider {...settings} >
                             <div className={`slide`}>
@@ -115,7 +118,7 @@ export default class NewsSlider extends Component {
                             </div>
                         </Slider>
                     </div>
-                </Zoom>
+
             </div>
         );
     }

@@ -14,19 +14,20 @@ export default function Info() {
                     </div>
                 </div>
             </Fade>
-            <Fade left>
+
                 <div className="Info__wrapper">
                     <div className={'container-fluid p-0'}>
                         <div className={'row m-0'}>
                             <div className={'col-xl-2 offset-xl-4 col-md-3 offset-md-3 col-12 Info_column_first'}>
                                 <div className={'Info__first__wrapper'}>
+                                    <Fade left cascade>
                                     <div className="Info__contacts Info_item">
                                         <div className="Info__label">
                                             Контакты
                                         </div>
                                         <div className="Info__contacts_phone">
-                                            <a className="Info__contacts_phone" href="tel:+7 999 000 00 00">+7 999 000
-                                                00 00</a>
+                                            <a className="Info__contacts_phone" href="tel:+74852331339">+7 485 233
+                                                13 39</a>
                                         </div>
                                     </div>
 
@@ -44,17 +45,20 @@ export default function Info() {
                                             Детское меню
                                         </div>
                                     </div>
+                                    </Fade>
                                 </div>
 
                             </div>
 
                             <div className={'col-xl-2 offset-xl-0 col-md-3 offset-md-0 col-12 Info_column_second'}>
+                                <Fade right cascade>
                                 <div className="Info__hour Info_item">
                                     <div className="Info__label">
                                         Часы работы
                                     </div>
                                     <div className="Info__hour_text">
-                                        08:00-00:00
+                                        <div>Будни: 08:00-00:00</div>
+                                        <div>Выходные: 09:00-00:00</div>
                                     </div>
                                 </div>
 
@@ -66,13 +70,13 @@ export default function Info() {
                                         Ярославль, пл. Труда, *, 1 этаж
                                     </div>
                                 </div>
+                                </Fade>
                             </div>
                         </div>
 
                     </div>
 
                 </div>
-            </Fade>
         </div>
     );
 }
