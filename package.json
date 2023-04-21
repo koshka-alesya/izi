@@ -17,7 +17,7 @@
     "react-dom": "^16.13.1",
     "react-photo-gallery": "^8.0.0",
     "react-reveal": "^1.2.2",
-    "react-scripts": "3.4.1",
+    "react-scripts": "5.0.1",
     "react-scroll": "^1.8.0",
     "react-scroll-wheel-handler": "^1.1.5",
     "react-slick": "^0.26.1",
